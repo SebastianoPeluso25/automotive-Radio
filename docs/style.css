@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+
+
+#stato-connessione {
+    padding: 20px;
+    width: max-content;
+    border-radius: 5px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.Connection-Status{
+    width: 100%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.navigation-Radio{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    width: 100%;
+    border: 1px solid red;
+    justify-content: space-around;
+    column-gap: 10px;
+
+}
+
+iframe{
+    border: 1px solid blue;
+}
+
+.online {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.offline {
+    background-color: #f8d7da;
+    color: #721c24;
+}
